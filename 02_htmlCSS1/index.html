@@ -1,0 +1,52 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML |TABLO EKLEME | CSS Inline</title>
+    <style>
+      /* CCS KODU icin */
+      /* CSS selector ler ile istenilen HTML elemanina 
+    stillendirme yapilabilir */
+      /* style etiketi ile yapilan sitillendirmeler sadece bu dosya icin gecerli olur */
+      /* eger tum proje icin global bir stillendirme istersek o zaman harici bir 
+      .CSS dosyasi olusturmak ve bu dosyayi HTML e import etmek gerekir */
+      * {
+        text-align: center;
+      }
+      h1 {
+        color: darkgreen;
+        font-size: 25px;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        text-align: center;
+        margin-top: 30px;
+      }
+      p {
+        color: blue;
+      }
+      #p1 {
+        color: blueviolet;
+      }
+      .p2 {
+        color: aqua;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 30;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TABLO EKLEME</h1>
+    <h1>CSS Stillendirme</h1>
+    <!-- id bir CSS selector dur ve tek element sitillendirilecek ise
+         kullanmak daha mantiklidir.
+         ayni zamanda id ye erisim icin # kullanilir -->
+    <!-- HTML, CSS deisimlendirme yapilirken kebap- case kullanilir -->
+    <p id="p1">Bu bir paragraftir</p>
+    <!-- class selecror ise genelde grup sitillendirmesi icin kullanilir  
+        class a erisim icin . kullanilir
+    -->
+    <p class="p2">Bu da baska bir paragraftir</p>
+    <p class="p2">CSS HTML e gore daha fazla detay icermektedir</p>
+  </body>
+</html>
